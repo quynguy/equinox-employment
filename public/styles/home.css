@@ -201,11 +201,40 @@ header {
 }
 
 
+
+
+
+/* QUOTE CONTAINER */
+
+.quote-container {
+    background-color: #A1C6EA;
+    margin-top: -65px;
+    padding: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+.quote .material-symbols-outlined {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
 /* SEARCH BAR */
 
 .search-container {
     background-color: #BBD1EA;
-    margin-top: -65px;
+    /* margin-top: -65px; */
 }
 
 .search-bar {
