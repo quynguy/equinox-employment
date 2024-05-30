@@ -200,6 +200,56 @@ header {
     border-radius: 5px;
 }
 
+
+/* SEARCH BAR */
+
+.search-container {
+    background-color: #BBD1EA;
+    margin-top: -65px;
+}
+
+.search-bar {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.search-bar h3 {
+    color: #507DBC;
+}
+
+.search-bar input {
+    width: 200px;
+    height: 35px;
+    padding: 0 20px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    border: white 1px solid;
+    outline: none;
+    background-color: #A1C6EA;
+    cursor: pointer;
+    color: #507DBC;
+    font-weight: 700;
+}
+
+.search-bar button:hover {
+    background-color: #507DBC;
+    color: white;
+}
+
+
+
+
 /* MEDIA QUERIES */
 
 @media (max-width: 900px) {
