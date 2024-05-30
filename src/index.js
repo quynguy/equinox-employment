@@ -2,21 +2,28 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
+// ejs view engine
+app.set('view engine', 'ejs');
+app.set('views', './views');
+
+// static files from 'public' directory
+app.use(express.static('public'));
+
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.render('home');
 });
 
 app.get('/about', (req, res) => {
-    res.send('About Page');
+    res.render('about');
   });
   
 app.get('/contact', (req, res) => {
-    res.send('Contact Page');
+    res.render('contact');
 });
 
 app.get('/jobs', (req, res) => {
-    res.send('Job Board');
+    res.render('jobs');
 });
 
 
