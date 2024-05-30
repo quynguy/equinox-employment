@@ -57,7 +57,6 @@ body {
     }
 }
 
-
 /* HEADER */
 
 header {
@@ -76,6 +75,8 @@ header {
     font-size: 40px !important;
     color: white;
 }
+
+
 
 
 .nav-item {
@@ -208,7 +209,7 @@ header {
 
 .quote-container {
     background-color: #A1C6EA;
-    margin-top: -65px;
+    margin-top: -80px;
     padding: 30px;
     font-size: 12px;
     display: flex;
